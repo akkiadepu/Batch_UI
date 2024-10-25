@@ -1,0 +1,22 @@
+.formy{
+    width:400px;
+    height: 620px;
+  
+}
+.data{
+background-color: #15172b;
+color: white;
+padding-left: 15px;
+padding-top:2% ;
+padding-bottom: 2%;
+border-radius: 10px;
+}
+
+@media (max-width:900px){
+    #locationId,#batchId,#trainerId,#subjectId,#startDate,#endDate{
+      width:100%;
+    }
+    .formy{
+        width: 300px !important;
+    }
+  }

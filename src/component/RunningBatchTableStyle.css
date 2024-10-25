@@ -1,0 +1,47 @@
+.runningBatchTable select,
+.runningBatchTable input[type="datetime-local"] {
+  max-width: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .runningBatchTable select,
+  .runningBatchTable input[type="datetime-local"] {
+    width: 100%;
+  }
+
+  .runningBatchTable th,
+  .runningBatchTable td {
+    white-space: nowrap;
+  }
+}
+
+
+table.runningBatchTable th {
+  background-color: #08d; 
+  color: #fff;          
+  padding: 10px;
+}
+
+table.runningBatchTable td {
+  background-color: #303245; 
+  color: #eee;               
+  padding: 10px;
+}
+
+
+table.runningBatchTable tr:hover {
+  background-color: #505357; 
+}
+
+
+table.runningBatchTable .btn {
+  margin-right: 5px;
+}
+
+table.runningBatchTable select, table.runningBatchTable input {
+  color: #303245;
+  background-color: #fff; 
+  border: 1px solid #08d; 
+}
+

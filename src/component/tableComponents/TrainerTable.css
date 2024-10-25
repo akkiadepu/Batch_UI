@@ -1,0 +1,14 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .table-container {
+      margin-top: 20px;
+    }
+  
+    .table-responsive {
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+    }
+  }
+  
