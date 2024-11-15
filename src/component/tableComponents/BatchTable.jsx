@@ -28,6 +28,7 @@ function BatchTable() {
         setFilteredBatches(formattedBatches);
 
 
+        
         const locationResponse = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/locations`);
         setLocations(locationResponse.data);
         setFilteredLocations(locationResponse.data);
